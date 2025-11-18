@@ -14,7 +14,11 @@ cd rtsp-bruteforce-script
 
 cd R4H1M‑0xBRUTE
 
-pip install -r requirements.txt
+python3 -m source venv venv
+
+source venv/bin/activate
+
+pip3 install -r requirements.txt
 
 **Run the script:**
 
