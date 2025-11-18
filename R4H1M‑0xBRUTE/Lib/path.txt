@@ -1,0 +1,11 @@
+/video
+/
+/video1
+/video2
+/stream
+/stream1
+/h264_ulaw.sdp
+/h264_pcm.sdp
+/live.sdp
+/stream.sdp
+/videostream.cgi
