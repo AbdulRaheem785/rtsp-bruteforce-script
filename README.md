@@ -14,7 +14,7 @@ cd rtsp-bruteforce-script
 
 cd R4H1M‑0xBRUTE
 
-python3 -m source venv venv
+python3 -m venv venv
 
 source venv/bin/activate
 
