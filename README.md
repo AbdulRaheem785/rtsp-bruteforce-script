@@ -7,7 +7,7 @@ A simple, multi‑threaded Python tool that bruteforces RTSP credentials and RTS
 This tool attempts to authenticate using a list of username:password pairs, and checks multiple RTSP paths (both built‑in common camera paths and user‑supplied paths from path.txt).
 If valid credentials and a valid RTSP stream path are found, the tool immediately prints the result and stops.
 
-🛠️ Installation
+**🛠️ Installation**
 
 git clone https://github.com/AbdulRaheem785/rtsp-bruteforce-script.git
 
