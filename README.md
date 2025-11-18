@@ -9,8 +9,11 @@ If valid credentials and a valid RTSP stream path are found, the tool immediatel
 🛠️ Installation
 
 git clone https://github.com/AbdulRaheem785/rtsp-bruteforce-script.git
+
 cd rtsp-bruteforce-script
+
 cd R4H1M‑0xBRUTE
+
 pip install -r requirements.txt
 
 **Run the script:**
