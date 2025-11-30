@@ -8,6 +8,7 @@ A high-performance, multi-threaded Python tool for testing RTSP streams on IP ca
 R4H1M‑0xBRUTE not only attacks weak credentials but also handles large dictionaries (like rockyou.txt) and performs vendor-specific path discovery, including Dahua cameras.
 
 ⚡ **Key Features**
+
 🔐 Credential Bruteforce
 
 Supports username:password combos or separate username/password lists
