@@ -20,8 +20,11 @@ Works with small lists or massive dictionaries (rockyou.txt, etc.)
 **RTSP Path Discovery**
 
 Scans multiple RTSP paths automatically:
+
 ✔ Common built-in camera paths
+
 ✔ User-defined paths from Lib/path.txt
+
 ✔ Vendor-specific paths (Dahua-style included)
 
 Helps uncover hidden or undocumented streams
