@@ -3,43 +3,44 @@
 
 By AbdulRaheem Butt
 
-A high-performance, multi-threaded Python tool for testing RTSP streams on IP cameras, DVR/NVRs, and IoT video devices.
+A high‑performance, multi‑threaded Python tool for auditing RTSP streams on IP cameras, DVR/NVRs, baby monitors, and IoT video devices.
 
-R4H1M‑0xBRUTE not only attacks weak credentials but also handles large dictionaries (like rockyou.txt) and performs vendor-specific path discovery, including Dahua cameras.
+R4H1M‑0xBRUTE can attack weak and strong credentials, supports huge wordlists like rockyou.txt, and performs vendor‑specific RTSP path discovery, including Dahua, Hikvision, 
 
-⚡ **Key Features**
+XMeye, and generic ONVIF-based cameras.
+**⚡ Key Features**
 
-🔐 Credential Bruteforce
+**🔐 Credential Bruteforce**
 
-Supports username:password combos or separate username/password lists
+Supports both username:password combo lists and separate username/password lists
 
-Works with small lists or massive dictionaries (rockyou.txt, etc.)
+Designed for large dictionaries (rockyou, leak-dumps, custom lists)
 
+Stops instantly when valid credentials or a valid path is found
 
+**🎥 RTSP Path Discovery**
 
-**RTSP Path Discovery**
+_Automatically scans:_
 
-Scans multiple RTSP paths automatically:
-
-✔ Common built-in camera paths
+✔ Common camera RTSP paths
 
 ✔ User-defined paths from Lib/path.txt
 
-✔ Vendor-specific paths (Dahua-style included)
+✔ Vendor-specific paths (Dahua included)
 
-Helps uncover hidden or undocumented streams
+Helps locate hidden, undocumented, or manufacturer-only stream paths
 
-**Vendor Support**
+**🧠 Vendor Support**
 
-Dahua, Hikvision, XMeye, Uniview, generic ONVIF & RTSP devices
+Works with Dahua, Hikvision, XMeye, Uniview, ONVIF, and most generic RTSP devices
 
-Includes special handling for Dahua stale-nonce authentication
+Includes Dahua stale‑nonce fix for accurate authentication handling
 
-**Optimized Multithreading**
+**🚀 Optimized Multithreading**
 
-Dynamic thread-pool for high-speed scanning
+Smart, dynamic thread pool for extremely fast attack performance
 
-Prevents CPU spikes while handling thousands of requests concurrently
+Handles thousands of concurrent requests without freezing or CPU overload
 
 **🛠️ Installation**
 
