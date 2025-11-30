@@ -16,7 +16,6 @@ Supports both username:password combo lists and separate username/password lists
 
 Designed for large dictionaries (rockyou, leak-dumps, custom lists)
 
-Stops instantly when valid credentials or a valid path is found
 
 **🎥 RTSP Path Discovery**
 
