@@ -40,6 +40,7 @@ Includes special handling for Dahua stale-nonce authentication
 Dynamic thread-pool for high-speed scanning
 
 Prevents CPU spikes while handling thousands of requests concurrently
+
 **🛠️ Installation**
 
 git clone https://github.com/AbdulRaheem785/rtsp-bruteforce-script.git
