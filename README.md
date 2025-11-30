@@ -1,12 +1,40 @@
 # rtsp-bruteforce-script
 ![image alt](https://github.com/AbdulRaheem785/rtsp-bruteforce-script/blob/91fc72c43d45cefee29c08038fc042ce36722197/R4HIM-0xBRUTE.png)
-Advanced Multithreaded RTSP Bruteforce &amp; Path Discovery Tool BY ABDULRAHEEM BUTT
+By AbdulRaheem Butt
 
-A simple, multi‑threaded Python tool that bruteforces RTSP credentials and RTSP stream paths on IP cameras, DVR/NVRs, and IoT video devices.
+A high-performance, multi-threaded Python tool for testing RTSP streams on IP cameras, DVR/NVRs, and IoT video devices.
 
-This tool attempts to authenticate using a list of username:password pairs, and checks multiple RTSP paths (both built‑in common camera paths and user‑supplied paths from path.txt).
-If valid credentials and a valid RTSP stream path are found, the tool immediately prints the result and stops.
+R4H1M‑0xBRUTE not only attacks weak credentials but also handles large dictionaries (like rockyou.txt) and performs vendor-specific path discovery, including Dahua cameras.
 
+⚡ **Key Features**
+🔐 Credential Bruteforce
+
+Supports username:password combos or separate username/password lists
+
+Works with small lists or massive dictionaries (rockyou.txt, etc.)
+
+
+
+**RTSP Path Discovery**
+
+Scans multiple RTSP paths automatically:
+✔ Common built-in camera paths
+✔ User-defined paths from Lib/path.txt
+✔ Vendor-specific paths (Dahua-style included)
+
+Helps uncover hidden or undocumented streams
+
+**Vendor Support**
+
+Dahua, Hikvision, XMeye, Uniview, generic ONVIF & RTSP devices
+
+Includes special handling for Dahua stale-nonce authentication
+
+**Optimized Multithreading**
+
+Dynamic thread-pool for high-speed scanning
+
+Prevents CPU spikes while handling thousands of requests concurrently
 **🛠️ Installation**
 
 git clone https://github.com/AbdulRaheem785/rtsp-bruteforce-script.git
